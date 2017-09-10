@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://java.sun.com/xml/ns/javaee" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>coreServlet</servlet-name>
+    <servlet-class>  
+			com.ray.servlet.CoreServlet
+    </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>coreServlet</servlet-name>
+    <url-pattern>/coreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>QRCodeServlet</servlet-name>
+    <servlet-class>com.ray.servlet.QrcodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QRCodeServlet</servlet-name>
+    <url-pattern>/qrservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>uploadTempMaterialServlet</servlet-name>
+    <servlet-class>  
+			com.ray.servlet.UploadTempMaterialServlet
+    </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>uploadTempMaterialServlet</servlet-name>
+    <url-pattern>/uploadTempMaterialServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 4.添加报销单 -->
+  <servlet>
+    <servlet-name>uploadExpenseAccaoutServlet</servlet-name>
+    <servlet-class>  
+			com.ray.servlet.UploadExpenseAccaoutServlet
+    </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>uploadExpenseAccaoutServlet</servlet-name>
+    <url-pattern>/uploadExpenseAccaoutServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
