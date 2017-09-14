@@ -66,19 +66,23 @@ public class MenuService {
 		ViewButton btn11 = new ViewButton();  
 		btn11.setName("JSSDK多图上传");  
 		btn11.setType("view");  
-		btn11.setUrl("http://5nffqn.natappfree.cc/WeiXin_QiYe_Demo/JSSDKUploadPics.jsp");  
+		btn11.setUrl("http://zvuntx.natappfree.cc/WeiXin_QiYe_Demo/JSSDKUploadPics.jsp");  
 
 		ViewButton btn21 = new ViewButton();  
 		btn21.setName("JSSDK测试（全）");  
 		btn21.setType("view");  
-		btn21.setUrl("http://5nffqn.natappfree.cc/WeiXin_QiYe_Demo/jsapiTicktAll.jsp");  
+		btn21.setUrl("http://zvuntx.natappfree.cc/WeiXin_QiYe_Demo/jsapiTicktAll.jsp");  
 
 		ViewButton btn22 = new ViewButton();  
 		btn22.setName("PC端网页授权");  
 		btn22.setType("view");  
-		btn22.setUrl("https://open.work.weixin.qq.com/wwopen/sso/qrConnect?appid=ww92f5da92bb24696e&agentid=1000002&redirect_uri=http%3A%2F%2F5nffqn.natappfree.cc%2FWeiXin_QiYe_Demo%2Fwebauthorization.jsp&state=state");  
+		btn22.setUrl("https://open.work.weixin.qq.com/wwopen/sso/qrConnect?appid=ww92f5da92bb24696e&agentid=1000002&redirect_uri=http%3A%2F%2Fzvuntx.natappfree.cc%2FWeiXin_QiYe_Demo%2FPCAuthorization.jsp&state=state");  
 
-		
+		ViewButton btn23 = new ViewButton();  
+		btn23.setName("移动端网页授权");  
+		btn23.setType("view");  
+		btn23.setUrl("https://open.weixin.qq.com/connect/oauth2/authorize?appid=ww92f5da92bb24696e&redirect_uri=http%3A%2F%2Fzvuntx.natappfree.cc%2FWeiXin_QiYe_Demo%2FMTAuthorization.jsp&response_type=code&scope=snsapi_privateinfo&agentid=1000002&state=hec#wechat_redirect");  
+
 		
 		CommonButton btn12 = new CommonButton();  
 		btn12.setName("扫一扫");  
@@ -109,10 +113,7 @@ public class MenuService {
 
 		
 
-		CommonButton btn23 = new CommonButton();  
-		btn23.setName("美女电台");  
-		btn23.setType("click");  
-		btn23.setKey("23");  
+		
 
 		CommonButton btn24 = new CommonButton();  
 		btn24.setName("人脸识别");  
