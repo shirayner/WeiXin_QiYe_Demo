@@ -26,8 +26,12 @@ Java微信开发版本二：采用Maven构建项目，并对部分代码进行�
 ## 2.weixin_gz
 
 > 项目地址：https://github.com/shirayner/weixin_gz
+>
+> 配套博客：https://www.cnblogs.com/shirui/category/1050392.html
 
 实现了Java 微信公众平台的开发，项目采用Maven构建
+
+
 
 
 
